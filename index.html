@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap">
     <link rel="stylesheet" href="./style/style.css">
     <title>Admin Dashboard</title>
 </head>
@@ -10,10 +11,25 @@
 <body>
     <div class="container">
         <div class="header">
-            <form>
-                <input type="text" id="searchInput" name="searchInput" placeholder="Enter your search term...">
-                <input type="submit" value="Search">                
-            </form>
+            <div class="header-top">
+            <div class="header-search"> 
+                <img class="search-icon" src="resources/magnify.svg" alt="Magnifying lens">             
+                <form>
+                <input type="text" id="searchInput" name="searchInput" placeholder="  Enter your search term...">              
+                </form>
+            </div>
+            <div class="header-icons">
+                <img class="notifcation-bell" src="resources/bell-outline.svg" alt="Notifcation bell">
+                <img class="round-avatar" src="resources/obey.png" alt="User image">
+                <div class="user-name">John Brown</div>
+            </div>
+            </div>
+            <div class="header-bottom">
+            <div class="header-menu">
+                <img class="round-avatar-big" src="resources/obey.png" alt="User image">
+                <div class="greeting"><p><span style="font-size: small;">Hi there</span>,<br><span style="font-size: large; font-weight: bold;">John Brown (@theylive)</span></p></div>
+            </div>
+            </div>
         </div>
         <div class="side-bar">
             <h1>Dashboard</h1>
