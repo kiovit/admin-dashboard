@@ -228,4 +228,20 @@ a{
     height: 1.5rem;
 
 }
+.trending{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+.trending-card{
+    display: flex;
+    gap: 15px;
+    
+    
+}
 /*might be a good accent color: #ffd166 */
